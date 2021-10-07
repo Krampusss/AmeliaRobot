@@ -28,8 +28,8 @@ if is_module_loaded(FILENAME):
     from AmeliaRobot.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
-    DISABLE_CMDS = [img]
-    DISABLE_OTHER = [img]
+    DISABLE_CMDS = []
+    DISABLE_OTHER = []
     ADMIN_CMDS = []
 
     class DisableAbleCommandHandler(CommandHandler):
